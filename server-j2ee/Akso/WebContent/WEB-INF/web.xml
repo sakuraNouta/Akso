@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>servlet.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>servlet.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RecordView</servlet-name>
+    <servlet-class>servlet.RecordView</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RecordView</servlet-name>
+    <url-pattern>/record</url-pattern>
+  </servlet-mapping>
+   <servlet>
+    <servlet-name>RecordList</servlet-name>
+    <servlet-class>servlet.RecordList</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RecordList</servlet-name>
+    <url-pattern>/listRecord</url-pattern>
+  </servlet-mapping>
+</web-app>

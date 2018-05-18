@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>Welcome</title>
+<style>
+	form {
+		width:300px;
+		height:100px;
+		position:absolute;
+		left:0;
+		top:0;
+		right:0;
+		bottom:100px;
+		margin:auto;
+	}
+</style>
+</head>
+<body>
+	<form action="login" method="post">
+		<span style="font-size:12px;color:Green">请登录：</span><br>
+		用户名:<input class="form-control" type="text" name="name" style="width:300px">
+		密码:<input class="form-control" type="password" name="password" style="width:300px">
+		<input class="btn btn-primary" type="submit" value="登陆">
+		<a href="register.html"><input class="btn btn-default" type="button" value="注册" style="float:right;margin-right:10px"></a>
+	</form>
+</body>
+</html>

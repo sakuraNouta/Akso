@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/asdasdasda"
+    tools:context="com.akso.MainActivity" >
+
+ <TextView
+     android:id="@+id/textView1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:text="请设定时间"
+     android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/l7"
+        android:text="服药记录"
+          android:alpha="0.85"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_above="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/ph2"
+        android:text="药品信息"
+          android:alpha="0.85"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:drawableLeft="@drawable/clook"
+        android:text="设定时间"
+        android:textSize="35sp" 
+        android:alpha="0.85"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/temp"
+        android:layout_alignBottom="@+id/temp"
+        android:layout_alignParentLeft="true"
+        android:text="当前的室温为："
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="fill_parent"
+        android:layout_height="80sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="25dp"
+        android:drawableLeft="@drawable/box"
+        android:text="寻找药盒"
+          android:alpha="0.85"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="46dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="温度"
+        android:textSize="27sp" />
+
+</RelativeLayout>

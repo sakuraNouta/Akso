@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">阿克索智能药盒系统1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_clock">设定时间</string>
+    <string name="title_activity_history">服药历史</string>
+    <string name="title_activity_medinfo">药品信息</string>
+    <string name="title_activity_temperature">Temperature</string>
+    <string name="title_activity_jump">提醒</string>
+    <string name="title_activity_webLogin">请登陆</string>
+
+</resources>
